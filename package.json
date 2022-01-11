@@ -1,0 +1,30 @@
+{
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.7.0",
+    "@shopify/admin-graphql-api-utilities": "^1.0.1",
+    "@shopify/app-bridge": "^2.0.3",
+    "@shopify/app-bridge-react": "^2.0.3",
+    "@shopify/app-bridge-utils": "^2.0.3",
+    "@shopify/polaris": "^6.5.0",
+    "@shopify/shopify-api": "^1.4.1",
+    "apollo-boost": "^0.4.9",
+    "graphql": "^15.5.0",
+    "next": "11.x",
+    "react": "17.x",
+    "react-apollo": "^3.1.5",
+    "react-dom": "17.x",
+    "redis-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "prisma": "^3.7.0"
+  }
+}
